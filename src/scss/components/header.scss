@@ -1,6 +1,6 @@
 .header {
   backdrop-filter: blur(5px);
-  background: rgba(21, 24, 28, 0.3);
+  background: rgba(255, 247, 238, 0.5);
   padding: 8px 0;
   position: fixed;
   width: 100%;
@@ -34,9 +34,9 @@
   @include media(desktop) {
     display: flex;
     align-items: stretch;
-    justify-content: end;
+    justify-content: center;
     width: 100%;
-    gap: 64px;
+    gap: 16px;
   }
 }
 
@@ -52,11 +52,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Onest', sans-serif;
-    font-weight: 200;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
     font-size: 12px;
     line-height: 1.5;
-    color: #e8ecef;
+    color: #6b7a8c;
     opacity: 0.8;
     width: 100%;
     max-width: max-content;
@@ -98,9 +98,9 @@
 }
 
 .menu-icon {
-  stroke: #e8ecef;
+  stroke: #2d4053;
 }
 
 .close-icon {
-  stroke: #e8ecef;
+  stroke: #2d4053;
 }

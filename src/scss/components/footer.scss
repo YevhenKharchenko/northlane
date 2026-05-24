@@ -1,6 +1,6 @@
 .footer {
-  background: #161d22;
-  border-top: 1px solid #161d22;
+  background: #edddcb;
+  border-top: 1px solid #edddcb;
 
   @include media(desktop) {
   }
@@ -38,11 +38,11 @@
 .footer-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 64px;
 
   @include media(desktop) {
-    justify-content: center;
-    gap: 100px;
+    gap: 104px;
   }
 }
 
@@ -50,25 +50,25 @@
 }
 
 .footer-link {
-  font-family: 'Onest', sans-serif;
-  font-weight: 200;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #e8ecef;
+  color: #2d4053;
 
   @include media(desktop) {
   }
 }
 
 .footer-text {
-  font-family: 'Onest', sans-serif;
-  font-weight: 200;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #e8ecef;
+  color: #2d4053;
 
   @include media(desktop) {
   }

@@ -68,6 +68,10 @@ html {
   }
 }
 
+.line-icon {
+  width: 100%;
+}
+
 .section-title {
   font-family: 'Onest', sans-serif;
   font-weight: 200;
@@ -75,7 +79,7 @@ html {
   line-height: 1.5;
   text-align: center;
   color: #65768b;
-  min-width: min-content;
+  min-width: fit-content;
 
   @include media(desktop) {
   }
