@@ -13,7 +13,6 @@
   position: relative;
 
   @include media(desktop) {
-    padding-bottom: 120px;
     max-width: 1440px;
   }
 }
@@ -22,27 +21,7 @@
 }
 
 .gallery-subtitle {
-  font-size: 40px;
-  margin-bottom: 12px;
-
   @include media(desktop) {
-    font-size: 48px;
-    text-align: center;
-  }
-}
-
-.gallery-secondary-subtitle {
-  font-family: 'Bodoni Moda', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5;
-  text-transform: uppercase;
-  color: #a4adb8;
-  margin-bottom: 64px;
-
-  @include media(desktop) {
-    font-size: 32px;
-    text-align: center;
   }
 }
 
@@ -88,7 +67,7 @@
     max-width: 1200px;
     gap: 18px;
     position: absolute;
-    top: 502px;
+    top: 492px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;

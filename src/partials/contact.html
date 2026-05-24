@@ -2,25 +2,51 @@
   <div class="contact-section-wrapper">
     <div class="section-title-wrapper contact-title-wrapper">
       <div class="container section-title-container">
-        <svg class="star-icon" width="16" height="16">
-          <use href="./img/sprite.svg#icon-star"></use>
-        </svg>
-        <h2 class="section-title contact-title">Contact</h2>
+        <picture>
+          <source
+            srcset="./img/about/left-line-desk.png"
+            media="(min-width: 1440px)"
+            width="572"
+            height="6" />
+          <source
+            srcset="./img/about/left-line-mob.png"
+            width="144"
+            height="6" />
+          <img
+            class="line-img"
+            src="./img/about/left-line-mob.png"
+            alt="Line"
+            width="144"
+            height="6"
+        /></picture>
+        <h2 class="section-title about-title">Contact</h2>
+        <picture>
+          <source
+            srcset="./img/about/right-line-desk.png"
+            media="(min-width: 1440px)"
+            width="572"
+            height="6" />
+          <source
+            srcset="./img/about/right-line-mob.png"
+            width="144"
+            height="6" />
+          <img
+            class="line-img"
+            src="./img/about/right-line-mob.png"
+            alt="Line"
+            width="144"
+            height="6"
+        /></picture>
       </div>
     </div>
     <div class="contact-bg-wrapper">
       <div class="container contact-container">
         <div class="contact-content-wrapper">
-          <div class="contact-text-wrapper">
-            <p class="section-subtitle contact-subtitle">Stay connected</p>
-            <p class="section-secondary-subtitle contact-secondary-subtitle">
-              with the world
-            </p>
-          </div>
-          <a href="mailto:info@openmeadow.pro" class="contact-email-link">
+          <p class="section-subtitle contact-subtitle">Let’s keep it sunny</p>
+          <a href="mailto:info@northlane.space" class="contact-email-link">
             <svg class="email-icon" width="32" height="32">
               <use href="./img/sprite.svg#icon-email"></use></svg
-            ><span>info@openmeadow.pro</span></a
+            ><span>info@northlane.space</span></a
           >
         </div>
         <picture>
@@ -28,17 +54,17 @@
             srcset="./img/contact/contact-bg-desk.jpg"
             media="(min-width: 1440px)"
             width="1440"
-            height="500" />
+            height="740" />
           <source
             srcset="./img/contact/contact-bg-mob.jpg"
             width="375"
-            height="315" />
+            height="300" />
           <img
             class="contact-img"
             src="./img/contact/contact-bg-mob.jpg"
             alt="Screenshot of the game"
             width="375"
-            height="315"
+            height="300"
             loading="lazy"
         /></picture>
       </div>

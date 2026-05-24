@@ -1,5 +1,5 @@
 .progression-section {
-  background: #161d22;
+  background: #edddcb;
 
   @include media(desktop) {
   }
@@ -7,7 +7,41 @@
 
 .progression-bg-wrapper {
   padding-top: 80px;
+  padding-bottom: 100px;
   max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  position: relative;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.progression-container {
+}
+
+.progression-subtitle {
+  @include media(desktop) {
+  }
+}
+
+.progression-text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #2d4053;
+  margin-bottom: 48px;
+
+  @include media(desktop) {
+  }
+}
+
+.progression-swiper-container {
+  max-width: 290px;
   margin-left: auto;
   margin-right: auto;
 
@@ -16,57 +50,37 @@
   }
 }
 
-.progression-container {
-  padding: 0;
+.progression-swiper-container.show {
+  visibility: visible;
+}
 
+.progression-swiper-wrapper {
   @include media(desktop) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
   }
 }
 
-.progression-content-wrapper {
-  padding: 0 16px;
+.progression-slide {
+  max-width: 290px;
 
   @include media(desktop) {
-    padding: 0 120px;
-  }
-}
+    width: 100% !important;
+    max-width: 343px;
 
-.progression-subtitle {
-  font-size: 40px;
-  margin-bottom: 64px;
+    &:nth-child(4) {
+      max-width: 530px;
+    }
 
-  @include media(desktop) {
-    font-size: 48px;
-    text-align: center;
-  }
-}
-
-.progression-text {
-  font-family: 'Onest', sans-serif;
-  font-weight: 200;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #a4adb8;
-
-  @include media(desktop) {
-    text-align: center;
-  }
-}
-
-.progression-br {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
+    &:nth-child(5) {
+      max-width: 530px;
+    }
   }
 }
 
 .progression-img {
-  margin-top: 48px;
-  margin-left: auto;
-  margin-right: auto;
-
   @include media(desktop) {
-    margin-top: 48px;
   }
 }

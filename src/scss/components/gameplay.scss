@@ -1,5 +1,5 @@
 .gameplay-section {
-  background: #161d22;
+  background: #edddcb;
 
   @include media(desktop) {
   }
@@ -15,7 +15,6 @@
   position: relative;
 
   @include media(desktop) {
-    padding-bottom: 120px;
     max-width: 1440px;
   }
 }
@@ -24,17 +23,12 @@
 }
 
 .gameplay-subtitle {
-  font-size: 40px;
-  margin-bottom: 64px;
-
   @include media(desktop) {
-    font-size: 48px;
-    text-align: center;
   }
 }
 
 .gameplay-swiper-container {
-  max-width: 290px;
+  max-width: 280px;
   margin-left: auto;
   margin-right: auto;
 
@@ -49,68 +43,21 @@
 
 .gameplay-swiper-wrapper {
   @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
   }
 }
 
 .gameplay-slide {
-  max-width: 290px;
+  max-width: 280px;
 
   @include media(desktop) {
-    max-width: 400px;
+    max-width: 200px;
   }
 }
 
 .gameplay-img {
   @include media(desktop) {
   }
-}
-
-.gameplay-controls {
-  display: none;
-
-  @include media(desktop) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    gap: 18px;
-    position: absolute;
-    top: 528px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-  }
-}
-
-.arrow-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.3s ease-in-out;
-
-  &:active {
-    transform: scale(0.9);
-  }
-
-  @include media(desktop) {
-    &:hover {
-      transform: scale(1.1);
-
-      .arrow-icon {
-      }
-    }
-  }
-
-  &[disabled] {
-    cursor: not-allowed;
-    opacity: 0.5;
-
-    &:hover {
-      transform: none;
-    }
-  }
-}
-
-.arrow-icon {
 }

@@ -1,5 +1,5 @@
 .policy-section {
-  background: #15181c;
+  background: #fff7ee;
   padding-top: 104px;
   padding-bottom: 40px;
 
@@ -15,28 +15,28 @@
 }
 
 .policy-section h1 {
-  font-family: 'Bodoni Moda', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 1;
-  letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #e8ecef;
+  text-align: center;
+  color: #6b7a8c;
   margin-bottom: 40px;
 
   @include media(desktop) {
-    font-size: 48px;
+    font-size: 64px;
     margin-bottom: 48px;
   }
 }
 
 .policy-section h2 {
-  font-family: 'Onest', sans-serif;
-  font-weight: 200;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: #a4adb8;
+  color: #6b7a8c;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -44,12 +44,25 @@
 }
 
 .policy-section h3 {
-  font-family: 'Onest', sans-serif;
-  font-weight: 200;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: #a4adb8;
+  color: #6b7a8c;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.policy-section h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #6b7a8c;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -57,11 +70,11 @@
 }
 
 .policy-section p {
-  font-family: 'Onest', sans-serif;
-  font-weight: 200;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
   font-size: 14px;
   line-height: 1.5;
-  color: #e8ecef;
+  color: #2d4053;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -69,11 +82,11 @@
 }
 
 .policy-section li {
-  font-family: 'Onest', sans-serif;
-  font-weight: 200;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
   font-size: 14px;
   line-height: 1.5;
-  color: #e8ecef;
+  color: #2d4053;
   margin-bottom: 16px;
 
   @include media(desktop) {

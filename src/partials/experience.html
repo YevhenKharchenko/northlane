@@ -1,58 +1,90 @@
 <section class="section experience-section" id="experience">
   <div class="section-title-wrapper experience-title-wrapper">
     <div class="container section-title-container">
-      <svg class="star-icon" width="16" height="16">
-        <use href="./img/sprite.svg#icon-star"></use>
-      </svg>
-      <h2 class="section-title experience-title">Player Experience</h2>
+      <picture>
+        <source
+          srcset="./img/about/left-line-desk.png"
+          media="(min-width: 1440px)"
+          width="572"
+          height="6" />
+        <source srcset="./img/about/left-line-mob.png" width="144" height="6" />
+        <img
+          class="line-img"
+          src="./img/about/left-line-mob.png"
+          alt="Line"
+          width="144"
+          height="6"
+      /></picture>
+      <h2 class="section-title about-title">Why It Feels Good</h2>
+      <picture>
+        <source
+          srcset="./img/about/right-line-desk.png"
+          media="(min-width: 1440px)"
+          width="572"
+          height="6" />
+        <source
+          srcset="./img/about/right-line-mob.png"
+          width="144"
+          height="6" />
+        <img
+          class="line-img"
+          src="./img/about/right-line-mob.png"
+          alt="Line"
+          width="144"
+          height="6"
+      /></picture>
     </div>
   </div>
   <div class="experience-bg-wrapper">
     <div class="container experience-container">
       <div class="experience-content-wrapper">
-        <div class="experience-text-wrapper">
-          <p class="section-subtitle experience-subtitle">
-            What it's actually like
-          </p>
-          <p class="section-secondary-subtitle experience-secondary-subtitle">
-            when you're playing
-          </p>
-        </div>
+        <p class="section-subtitle experience-subtitle">
+          More than just matching
+        </p>
+        <p class="experience-text">
+          There's something really satisfying about seeing the beach come alive
+          piece by piece.<br />
+          Honestly, it feels like a mini vacation every time you open the game.
+        </p>
         <ul class="experience-list">
           <li class="experience-slide">
-            <svg class="experience-icon" width="24" height="24">
+            <svg class="experience-icon" width="48" height="48">
               <use href="./img/sprite.svg#icon-experience1"></use>
             </svg>
-            <p class="experience-item-text">Calm and meditative</p>
+            <p class="experience-item-text">Light, positive atmosphere</p>
           </li>
           <li class="experience-slide">
-            <svg class="experience-icon" width="24" height="24">
+            <svg class="experience-icon" width="48" height="48">
               <use href="./img/sprite.svg#icon-experience2"></use>
             </svg>
-            <p class="experience-item-text">Curiosity-driven exploration</p>
+            <p class="experience-item-text">Easy to start and continue</p>
           </li>
           <li class="experience-slide">
-            <svg class="experience-icon" width="24" height="24">
+            <svg class="experience-icon" width="48" height="48">
               <use href="./img/sprite.svg#icon-experience3"></use>
             </svg>
-            <p class="experience-item-text">No pressure or failure states</p>
-          </li>
-          <li class="experience-slide">
-            <svg class="experience-icon" width="24" height="24">
-              <use href="./img/sprite.svg#icon-experience4"></use>
-            </svg>
-            <p class="experience-item-text">
-              Satisfaction from understanding patterns
-            </p>
-          </li>
-          <li class="experience-slide">
-            <svg class="experience-icon" width="24" height="24">
-              <use href="./img/sprite.svg#icon-experience5"></use>
-            </svg>
-            <p class="experience-item-text">A sense of quiet progression</p>
+            <p class="experience-item-text">Constant small rewards</p>
           </li>
         </ul>
       </div>
+      <picture>
+        <source
+          srcset="./img/experience/experience-bg-desk.jpg"
+          media="(min-width: 1440px)"
+          width="1440"
+          height="545" />
+        <source
+          srcset="./img/experience/experience-bg-mob.jpg"
+          width="375"
+          height="300" />
+        <img
+          class="experience-img"
+          src="./img/experience/experience-bg-mob.jpg"
+          alt="Screenshot of the game"
+          width="375"
+          height="300"
+          loading="lazy"
+      /></picture>
     </div>
   </div>
 </section>

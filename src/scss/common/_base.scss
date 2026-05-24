@@ -64,12 +64,7 @@ html {
   gap: 16px;
 
   @include media(desktop) {
-    padding: 0 136px;
   }
-}
-
-.line-icon {
-  width: 100%;
 }
 
 .section-title {

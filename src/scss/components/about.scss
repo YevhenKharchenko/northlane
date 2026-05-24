@@ -22,41 +22,28 @@
 }
 
 .about-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-
   @include media(desktop) {
-    flex-direction: row;
-    align-items: end;
   }
 }
 
 .about-subtitle {
-  font-size: 56px;
-  margin-bottom: 32px;
-
   @include media(desktop) {
-    font-size: 80px;
-  }
-}
-
-.about-secondary-subtitle {
-  font-size: 40px;
-
-  @include media(desktop) {
-    font-size: 48px;
   }
 }
 
 .about-text {
-  font-family: 'Onest', sans-serif;
-  font-weight: 200;
-  font-size: 20px;
-  line-height: 2;
-  color: #e8ecef;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #2d4053;
+  max-width: 323px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
+    max-width: max-content;
   }
 }
 

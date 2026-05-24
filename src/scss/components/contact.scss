@@ -1,5 +1,5 @@
 .contact-section {
-  background: #161d22;
+  background: #edddcb;
 }
 
 .contact-section-wrapper {
@@ -27,54 +27,29 @@
 
 .contact-content-wrapper {
   padding: 0 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
 
   @include media(desktop) {
     padding: 0 120px;
-    flex-direction: row;
-    align-items: end;
-    justify-content: center;
-    gap: 32px;
-  }
-}
-
-.contact-text-wrapper {
-  @include media(desktop) {
   }
 }
 
 .contact-subtitle {
-  font-size: 56px;
-  margin-bottom: 32px;
-
   @include media(desktop) {
-    font-size: 80px;
-  }
-}
-
-.contact-secondary-subtitle {
-  font-size: 40px;
-
-  @include media(desktop) {
-    font-size: 48px;
   }
 }
 
 .contact-email-link {
-  font-family: 'Onest', sans-serif;
-  font-weight: 200;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
-  color: #e8ecef;
+  color: #2d4053;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   gap: 16px;
 
   @include media(desktop) {
-    padding-bottom: 8px;
   }
 }
 
@@ -86,11 +61,10 @@
 }
 
 .contact-img {
-  margin-top: 32px;
+  margin-top: 48px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    margin-top: 56px;
   }
 }
