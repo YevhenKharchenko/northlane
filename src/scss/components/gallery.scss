@@ -1,0 +1,128 @@
+.gallery-section {
+  @include media(desktop) {
+  }
+}
+
+.gallery-bg-wrapper {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  position: relative;
+
+  @include media(desktop) {
+    padding-bottom: 120px;
+    max-width: 1440px;
+  }
+}
+
+.gallery-container {
+}
+
+.gallery-subtitle {
+  font-size: 40px;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+    font-size: 48px;
+    text-align: center;
+  }
+}
+
+.gallery-secondary-subtitle {
+  font-family: 'Bodoni Moda', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #a4adb8;
+  margin-bottom: 64px;
+
+  @include media(desktop) {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+.gallery-swiper-container {
+  max-width: 293px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.gallery-swiper-container.show {
+  visibility: visible;
+}
+
+.gallery-swiper-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.gallery-slide {
+  max-width: 293px;
+
+  @include media(desktop) {
+  }
+}
+
+.gallery-img {
+  @include media(desktop) {
+  }
+}
+
+.gallery-controls {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 18px;
+    position: absolute;
+    top: 502px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+}
+
+.arrow-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  @include media(desktop) {
+    &:hover {
+      transform: scale(1.1);
+
+      .arrow-icon {
+      }
+    }
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      transform: none;
+    }
+  }
+}
+
+.arrow-icon {
+}

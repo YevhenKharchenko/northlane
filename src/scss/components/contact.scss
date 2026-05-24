@@ -1,0 +1,96 @@
+.contact-section {
+  background: #161d22;
+}
+
+.contact-section-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.contact-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.contact-container {
+  padding: 0;
+
+  @include media(desktop) {
+  }
+}
+
+.contact-content-wrapper {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+  @include media(desktop) {
+    padding: 0 120px;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+
+.contact-text-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.contact-subtitle {
+  font-size: 56px;
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    font-size: 80px;
+  }
+}
+
+.contact-secondary-subtitle {
+  font-size: 40px;
+
+  @include media(desktop) {
+    font-size: 48px;
+  }
+}
+
+.contact-email-link {
+  font-family: 'Onest', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #e8ecef;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 16px;
+
+  @include media(desktop) {
+    padding-bottom: 8px;
+  }
+}
+
+.email-icon {
+  min-width: 32px;
+
+  @include media(desktop) {
+  }
+}
+
+.contact-img {
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin-top: 56px;
+  }
+}

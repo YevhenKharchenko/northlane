@@ -1,0 +1,97 @@
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: $_main_color;
+  background: $_main_bg_color;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+}
+
+.section {
+  scroll-margin-top: 40px;
+
+  @include media(desktop) {
+    scroll-margin-top: 50px;
+  }
+}
+
+.section-title-wrapper {
+  padding-top: 96px;
+  padding-bottom: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.section-title-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    padding: 0 136px;
+  }
+}
+
+.section-title {
+  font-family: 'Onest', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #65768b;
+  min-width: min-content;
+
+  @include media(desktop) {
+  }
+}
+
+.section-subtitle {
+  font-family: 'DM Serif Display', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  color: #6b7a8c;
+  margin-bottom: 64px;
+
+  @include media(desktop) {
+    font-size: 48px;
+  }
+}

@@ -1,0 +1,72 @@
+.progression-section {
+  background: #161d22;
+
+  @include media(desktop) {
+  }
+}
+
+.progression-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.progression-container {
+  padding: 0;
+
+  @include media(desktop) {
+  }
+}
+
+.progression-content-wrapper {
+  padding: 0 16px;
+
+  @include media(desktop) {
+    padding: 0 120px;
+  }
+}
+
+.progression-subtitle {
+  font-size: 40px;
+  margin-bottom: 64px;
+
+  @include media(desktop) {
+    font-size: 48px;
+    text-align: center;
+  }
+}
+
+.progression-text {
+  font-family: 'Onest', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #a4adb8;
+
+  @include media(desktop) {
+    text-align: center;
+  }
+}
+
+.progression-br {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+  }
+}
+
+.progression-img {
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin-top: 48px;
+  }
+}

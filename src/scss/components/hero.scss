@@ -1,0 +1,87 @@
+.hero-section {
+  @include media(desktop) {
+  }
+}
+
+.hero-bg-wrapper {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/hero/hero-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+
+  @include media(desktop) {
+    padding-top: 170px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+    background-image: url(../img/hero/hero-bg-desk.jpg);
+  }
+}
+
+.hero-container {
+  @include media(desktop) {
+  }
+}
+
+.hero-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.hero-text-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.hero-main-title {
+  font-family: 'Bodoni Moda', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #15181c;
+
+  @include media(desktop) {
+    font-size: 180px;
+    margin-left: 128px;
+  }
+}
+
+.hero-subtitle {
+  font-family: 'Bodoni Moda', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #15181c;
+  margin-bottom: 351px;
+
+  @include media(desktop) {
+    font-size: 80px;
+    margin-left: 128px;
+    margin-bottom: 263px;
+  }
+}
+
+.hero-text {
+  font-family: 'Onest', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #e8ecef;
+
+  @include media(desktop) {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+.hero-br {
+  @include media(desktop) {
+    display: none;
+  }
+}
